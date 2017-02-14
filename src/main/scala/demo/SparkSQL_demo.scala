@@ -4,9 +4,6 @@ import org.apache.spark.sql.hive.HiveContext
 import org.apache.spark.sql.{DataFrame, Row, SaveMode}
 import org.apache.spark.{SparkConf, SparkContext}
 
-/**
-  * Created by waip on 2/13/2017.
-  */
 object SparkSQL_demo {
 
   case class Person(name: String, age: Int)
